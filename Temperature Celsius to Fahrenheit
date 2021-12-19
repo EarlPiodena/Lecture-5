@@ -1,0 +1,27 @@
+(Miss Zainab)
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+ double x,y;
+cout << "Enter the temperature in celcius to be converted into Fahrenheit \n";
+    cin >> x;
+    y = (x *1.8) +32;
+    cout << "The temperature in Fahrenheit is: " << y << endl;
+}
+
+(My Code)
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    float C, F; 
+    
+    cout << "Enter the value of temperature in Celsius: ";
+    cin >> C;
+    F = C * 1.8 + 32;
+    cout << "Temperature in Farenheight: " << F;
+}
